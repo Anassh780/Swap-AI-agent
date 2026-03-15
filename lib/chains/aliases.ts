@@ -1,0 +1,17 @@
+export const STATIC_CHAIN_ALIASES: Record<string, string[]> = {
+  ethereum: ['ethereum', 'eth mainnet', 'mainnet'],
+  arbitrum: ['arbitrum', 'arb', 'arbitrum one'],
+  optimism: ['optimism', 'optimism mainnet', 'op'],
+  base: ['base', 'coinbase base'],
+  polygon: ['polygon', 'matic', 'polygon pos'],
+  'bnb chain': ['bnb chain', 'bsc', 'binance smart chain', 'binance chain'],
+  avalanche: ['avalanche', 'avax', 'avalanche c-chain'],
+  solana: ['solana', 'sol'],
+  bitcoin: ['bitcoin', 'btc'],
+  zksync: ['zksync', 'zk sync', 'era'],
+  linea: ['linea'],
+  scroll: ['scroll'],
+  blast: ['blast'],
+  mantle: ['mantle'],
+  gnosis: ['gnosis', 'xdai'],
+};
